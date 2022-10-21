@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33C8F65228FBBEA500A5753D /* ReliveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C8F65128FBBEA500A5753D /* ReliveApp.swift */; };
+		33C8F65428FBBEA500A5753D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C8F65328FBBEA500A5753D /* ContentView.swift */; };
+		33C8F65628FBBEA600A5753D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C8F65528FBBEA600A5753D /* Assets.xcassets */; };
+		33C8F65928FBBEA600A5753D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C8F65828FBBEA600A5753D /* Preview Assets.xcassets */; };
+		33C8F66028FBBECA00A5753D /* ArView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C8F65F28FBBECA00A5753D /* ArView.swift */; };
+		33C8F66228FBBF9700A5753D /* ArViewrep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C8F66128FBBF9700A5753D /* ArViewrep.swift */; };
+		33FC0D7628FC036200B34B7E /* ArAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FC0D7528FC036200B34B7E /* ArAction.swift */; };
+		33FC0D7828FC03D100B34B7E /* ArManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FC0D7728FC03D100B34B7E /* ArManager.swift */; };
+		33FC0D7A28FC0F5300B34B7E /* Messi.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 33FC0D7928FC0F5300B34B7E /* Messi.mp4 */; };
+		33FC0D7C28FC0F5B00B34B7E /* ronaldo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 33FC0D7B28FC0F5B00B34B7E /* ronaldo.mp4 */; };
+		33FC0D8228FC10C400B34B7E /* ronaldo-img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33FC0D8128FC10C400B34B7E /* ronaldo-img.jpg */; };
+		33FC0D8428FC10CA00B34B7E /* Messi-img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 33FC0D8328FC10CA00B34B7E /* Messi-img.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33C8F64E28FBBEA500A5753D /* Relive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Relive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C8F65128FBBEA500A5753D /* ReliveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReliveApp.swift; sourceTree = "<group>"; };
+		33C8F65328FBBEA500A5753D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33C8F65528FBBEA600A5753D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33C8F65828FBBEA600A5753D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33C8F65F28FBBECA00A5753D /* ArView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArView.swift; sourceTree = "<group>"; };
+		33C8F66128FBBF9700A5753D /* ArViewrep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArViewrep.swift; sourceTree = "<group>"; };
+		33FC0D7528FC036200B34B7E /* ArAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArAction.swift; sourceTree = "<group>"; };
+		33FC0D7728FC03D100B34B7E /* ArManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArManager.swift; sourceTree = "<group>"; };
+		33FC0D7928FC0F5300B34B7E /* Messi.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Messi.mp4; sourceTree = "<group>"; };
+		33FC0D7B28FC0F5B00B34B7E /* ronaldo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ronaldo.mp4; sourceTree = "<group>"; };
+		33FC0D8128FC10C400B34B7E /* ronaldo-img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ronaldo-img.jpg"; sourceTree = "<group>"; };
+		33FC0D8328FC10CA00B34B7E /* Messi-img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Messi-img.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33C8F64B28FBBEA500A5753D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33C8F64528FBBEA500A5753D = {
+			isa = PBXGroup;
+			children = (
+				33C8F65028FBBEA500A5753D /* Relive */,
+				33C8F64F28FBBEA500A5753D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33C8F64F28FBBEA500A5753D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33C8F64E28FBBEA500A5753D /* Relive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33C8F65028FBBEA500A5753D /* Relive */ = {
+			isa = PBXGroup;
+			children = (
+				33C8F65F28FBBECA00A5753D /* ArView.swift */,
+				33FC0D7728FC03D100B34B7E /* ArManager.swift */,
+				33FC0D7528FC036200B34B7E /* ArAction.swift */,
+				33C8F66128FBBF9700A5753D /* ArViewrep.swift */,
+				33C8F65128FBBEA500A5753D /* ReliveApp.swift */,
+				33C8F65328FBBEA500A5753D /* ContentView.swift */,
+				33FC0D7B28FC0F5B00B34B7E /* ronaldo.mp4 */,
+				33FC0D7928FC0F5300B34B7E /* Messi.mp4 */,
+				33C8F65528FBBEA600A5753D /* Assets.xcassets */,
+				33FC0D8128FC10C400B34B7E /* ronaldo-img.jpg */,
+				33FC0D8328FC10CA00B34B7E /* Messi-img.jpg */,
+				33C8F65728FBBEA600A5753D /* Preview Content */,
+			);
+			path = Relive;
+			sourceTree = "<group>";
+		};
+		33C8F65728FBBEA600A5753D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				33C8F65828FBBEA600A5753D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33C8F64D28FBBEA500A5753D /* Relive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33C8F65C28FBBEA600A5753D /* Build configuration list for PBXNativeTarget "Relive" */;
+			buildPhases = (
+				33C8F64A28FBBEA500A5753D /* Sources */,
+				33C8F64B28FBBEA500A5753D /* Frameworks */,
+				33C8F64C28FBBEA500A5753D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Relive;
+			productName = Relive;
+			productReference = 33C8F64E28FBBEA500A5753D /* Relive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33C8F64628FBBEA500A5753D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					33C8F64D28FBBEA500A5753D = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 33C8F64928FBBEA500A5753D /* Build configuration list for PBXProject "Relive" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33C8F64528FBBEA500A5753D;
+			productRefGroup = 33C8F64F28FBBEA500A5753D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33C8F64D28FBBEA500A5753D /* Relive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33C8F64C28FBBEA500A5753D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C8F65928FBBEA600A5753D /* Preview Assets.xcassets in Resources */,
+				33FC0D7C28FC0F5B00B34B7E /* ronaldo.mp4 in Resources */,
+				33FC0D7A28FC0F5300B34B7E /* Messi.mp4 in Resources */,
+				33FC0D8428FC10CA00B34B7E /* Messi-img.jpg in Resources */,
+				33C8F65628FBBEA600A5753D /* Assets.xcassets in Resources */,
+				33FC0D8228FC10C400B34B7E /* ronaldo-img.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33C8F64A28FBBEA500A5753D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C8F66028FBBECA00A5753D /* ArView.swift in Sources */,
+				33C8F65428FBBEA500A5753D /* ContentView.swift in Sources */,
+				33FC0D7628FC036200B34B7E /* ArAction.swift in Sources */,
+				33C8F65228FBBEA500A5753D /* ReliveApp.swift in Sources */,
+				33FC0D7828FC03D100B34B7E /* ArManager.swift in Sources */,
+				33C8F66228FBBF9700A5753D /* ArViewrep.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		33C8F65A28FBBEA600A5753D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33C8F65B28FBBEA600A5753D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33C8F65D28FBBEA600A5753D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Relive/Preview Content\"";
+				DEVELOPMENT_TEAM = 4285Q8GQW5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To show AR view";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Prakhar.Relive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33C8F65E28FBBEA600A5753D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Relive/Preview Content\"";
+				DEVELOPMENT_TEAM = 4285Q8GQW5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To show AR view";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Prakhar.Relive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33C8F64928FBBEA500A5753D /* Build configuration list for PBXProject "Relive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C8F65A28FBBEA600A5753D /* Debug */,
+				33C8F65B28FBBEA600A5753D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33C8F65C28FBBEA600A5753D /* Build configuration list for PBXNativeTarget "Relive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C8F65D28FBBEA600A5753D /* Debug */,
+				33C8F65E28FBBEA600A5753D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33C8F64628FBBEA500A5753D /* Project object */;
+}
